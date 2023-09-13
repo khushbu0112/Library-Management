@@ -73,7 +73,7 @@ def search():
 
 def show():
     show = tk.Tk()
-    show.title("Search Book")
+    show.title("List of Books")
     frame1 = tk.Frame(show)
     frame1.pack(pady=50)
     text_result = tk.Text(frame1, height=10, width=50)
